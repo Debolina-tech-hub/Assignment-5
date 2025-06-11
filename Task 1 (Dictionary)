@@ -1,0 +1,10 @@
+d=dict()
+keys=["Alice","Bob","Rahul","Samiran"]
+values=[85,90,82,80]
+for i, j in enumerate(keys):
+    d[j]=values[i]
+s=input("Enter the student's name: ")
+if s in d:
+    print(f"{s}'s marks: ", d[s])
+else:
+    print("Student not found.")
